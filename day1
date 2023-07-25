@@ -1,0 +1,33 @@
+
+# Day1
+
+- 最受歡迎程式語言: Python
+- 執行python最簡單的地方: Colab
+- python變數有哪些? int, float, str, bool
+- 善用問題解答工具: Google(含圖片), ChatGPT(3.5), Youtube
+- 知識管理工具: Notion, Github (search, 卡片盒筆記法)
+- Python藝術創作: ColabTurtle
+- for, range(5): 0,1,2,3,4
+
+```
+for i in range(5):
+  print(i)
+```
+
+day1
+
+[要怎麼學PYTHON?](https://www.notion.so/PYTHON-2de479785fbf4e378330453f6e49407b?pvs=21)
+
+[知識管理工具](https://www.notion.so/e7f146b926e545df899b590fd094fc07?pvs=21)
+
+[ChatGPT](https://www.notion.so/ChatGPT-1b77635addb84a22a6d3e58fde33f8a3?pvs=21)
+
+[ITS Software Development](https://www.notion.so/ITS-Software-Development-9fca5ca6ade646ae9c8e9e4be8e74015?pvs=21)
+
+[心理學](https://www.notion.so/5a244fea3de2485cbcb0bff5d89df29e?pvs=21)
+
+[讀書法](https://www.notion.so/ed52e4bb90c54e18b94cb86139067141?pvs=21)
+
+[遊戲化](https://www.notion.so/34b27acd8ec54e2ba463e0df9e4a4302?pvs=21)
+
+[全英語上課用的英語腳本](https://www.notion.so/ec86a0933ff0479bac7ad0bd2959643b?pvs=21)
