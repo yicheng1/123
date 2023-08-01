@@ -1,0 +1,66 @@
+[Python 時間序列實做！ - FinLab](https://www.finlab.tw/python-時間序列實作！/)
+
+[](https://github.com/tewei0328/teach-visulization/blob/main/viz1_finlab_yfinance.ipynb)
+
+## 腳本, Shell Script
+
+[Python 之父说 Python ｜小甲鱼原创翻译—听听国外大神怎么说](https://youtu.be/kVPO91dzems)
+
+自動化, tinytask
+
+[欸，這個超實用的功能根本就應該內建在每台電腦吧？ | AutoHotKey 超強自訂快速鍵工具](https://youtu.be/PJ6L0sBpI5Y)
+
+[AHK#1 | 快來學習AutoHotkey！使用AutoGUI輕鬆上手，超簡單教學影片～AutoHotkey教學 #1 (內嵌字幕)](https://youtu.be/Q9J5XZcp1o8)
+
+[【電腦自動幫你工作】電腦腳本教學 丨自動完成工作丨你不能不知道的電腦技巧丨簡單操作快速上手丨左撇子滷蛋Gaming第二個頻道](https://youtu.be/erDcf7QntbY)
+
+[輕鬆又省力//按鍵精靈簡易教學//簡單又實用的自動按鍵//不只適用一款遊戲](https://youtu.be/BNO_CdtH25w)
+
+[遊戲外掛-風之國度自動化腳本 | 陳琮斌 的作品集](https://www.cakeresume.com/portfolios/c760ad?locale=zh-TW&fbclid=IwAR0b66SaCU4Qv2NWHAU3P10SqfT-yOP3xdgdn-mzU06xcob4kOtcA6dBXVY)
+
+[How To Use GitHub Copilot (with Python Examples)](https://youtu.be/tG8PPne7ef0)
+
+[Python新手教學：用Python投資？你想不到的好處](https://www.finlab.tw/python新手教學0為何用python投資/)
+
+# Numpy
+
+1. **NumPy**是[Python語言](https://zh.wikipedia.org/wiki/Python)的一個擴充程式庫。支援高階大規模的[多維](https://zh.wikipedia.org/wiki/%E7%B6%AD%E5%BA%A6)[陣列](https://zh.wikipedia.org/wiki/%E9%99%A3%E5%88%97)與[矩陣](https://zh.wikipedia.org/wiki/%E7%9F%A9%E9%99%A3)運算，此外也針對陣列運算提供大量的[數學](https://zh.wikipedia.org/wiki/%E6%95%B8%E5%AD%B8)[函式](https://zh.wikipedia.org/wiki/%E5%87%BD%E6%95%B8)[函式庫](https://zh.wikipedia.org/wiki/%E5%87%BD%E5%BC%8F%E5%BA%AB)。
+
+### 2. **ndarray 資料結構:** NumPy的核心功能是ndarray（即*n*-dimensional array，多維陣列）資料結構。這是一個表示多維度、同質並且固定大小的陣列物件。
+
+### 3. **局限性:** 在陣列中插入或追加元素並不像Python的list一樣簡單。
+
+`np.pad(...)`實際上建立了新的具有目標形狀和填充值的陣列，將給定陣列的值複製到新陣列中並返回新陣列。`np.concatenate([a1,a2])`並沒有直接連接兩個陣列，而是返回新的陣列，該陣列填充了兩個原陣列的值。用`np.reshape(...)`改變陣列的維度只有在陣列中元素數量不變的情況下才能實現。造成以上情況的原因是NumPy的陣列必須占用連續的記憶體空間。
+
+1. 未經向量化的演算法通常執行緩慢，因為它們必須用純Python方法實現。
+2. 可與NumPy整合的開源解決方案包括 numexpr[[17]](https://zh.wikipedia.org/zh-tw/NumPy#cite_note-17)和[Numba](https://zh.wikipedia.org/wiki/Numba)[[18]](https://zh.wikipedia.org/zh-tw/NumPy#cite_note-18)。Cython和Pythran是靜態編譯的解決方案。
+3. 許多現代大型科學計算應用的要求超出了NumPy陣列的能力。例如，NumPy陣列通常載入到電腦的記憶體中，然而記憶體可能沒有足夠的容量；此外，NumPy僅在單個[CPU](https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%A4%AE%E5%A4%84%E7%90%86%E5%99%A8)上進行操作，而許多線性代數算子可以通過CPU的叢集和其它特殊硬體（例如[GPU](https://zh.wikipedia.org/wiki/%E5%9C%96%E5%BD%A2%E8%99%95%E7%90%86%E5%99%A8)、[TPU](https://zh.wikipedia.org/wiki/%E5%BC%A0%E9%87%8F%E5%A4%84%E7%90%86%E5%8D%95%E5%85%83)，部分深度學習應用也依賴於這些特殊硬體）來加速。
+4. 因此，近期在Python的生態中出現了許多其它工具，例如用於分散式陣列的[Dask](https://zh.wikipedia.org/w/index.php?title=Dask&action=edit&redlink=1)、用於GPU計算的[TensorFlow](https://zh.wikipedia.org/wiki/TensorFlow)和JAX[[19]](https://zh.wikipedia.org/zh-tw/NumPy#cite_note-19)等。這些庫通常實現或模仿NumPy的部分[API](https://zh.wikipedia.org/wiki/%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%8E%A5%E5%8F%A3)，因此使用者不需大量改動就可以部署原先使用NumPy的程式。[[20]](https://zh.wikipedia.org/zh-tw/NumPy#cite_note-Nature-20)近期出現的由Nvidia的CUDA架構加速的[CuPy](https://zh.wikipedia.org/w/index.php?title=CuPy&action=edit&redlink=1)庫[[21]](https://zh.wikipedia.org/zh-tw/NumPy#cite_note-21)展示了快速計算的潛力，是NumPy的直接替代品。[[22]](https://zh.wikipedia.org/zh-tw/NumPy#cite_note-22)
+
+[NumPy - 維基百科，自由的百科全書](https://zh.wikipedia.org/zh-tw/NumPy)
+
+# Pandas (AI, 機器學習)
+
+1.在[電腦編程](https://zh.wikipedia.org/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BC%96%E7%A8%8B)中，**pandas**是[Python](https://zh.wikipedia.org/wiki/Python)[程式語言](https://zh.wikipedia.org/wiki/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80)的用於資料操縱和分析的[軟體庫](https://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BB%B6%E5%BA%93)。
+
+2.特別是，它提供操縱數值表格和[時間序列](https://zh.wikipedia.org/wiki/%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97)的資料結構和運算操作。
+
+3.它的名字衍生自術語***「[縱橫資料](https://zh.wikipedia.org/wiki/%E9%9D%A2%E6%9D%BF%E6%95%B0%E6%8D%AE)」（panel data）***，這是[計量經濟學](https://zh.wikipedia.org/wiki/%E8%AE%A1%E9%87%8F%E7%BB%8F%E6%B5%8E%E5%AD%A6)的資料集術語，它們包括了對同一個體的在多個時期上的觀測[[3]](https://zh.wikipedia.org/zh-tw/Pandas#cite_note-3)。它的名字還可解釋為短語「Python data analysis」自身的文字遊戲[[4]](https://zh.wikipedia.org/zh-tw/Pandas#cite_note-4)。
+
+## 庫特徵
+
+- 資料框（DataFrame）對象，用於憑藉整合索引進行資料操縱。
+- 在記憶體中資料結構和不同的檔案格式之間讀寫資料的工具。
+- 資料對齊和整合的缺失資料處理。
+- 資料結構列的插入和刪除。
+- 資料集的合併和連接。
+- 時間序列功能：資料範圍生成和頻率轉換，移動窗口統計，移動窗口線性回歸，資料轉移（shift）和滯後（lag）。
+- 提供資料過濾。
+
+這個庫對效能進行了高度最佳化，具有關鍵代碼路徑用[Cython](https://zh.wikipedia.org/wiki/Cython)或[C](https://zh.wikipedia.org/wiki/C%E8%AF%AD%E8%A8%80)寫成[[7]](https://zh.wikipedia.org/zh-tw/Pandas#cite_note-7)。
+
+## 資料框
+
+pandas主要用於[資料分析](https://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90)。pandas的資料框允許操縱各種資料檔案格式，比如匯入匯出[CSV](https://zh.wikipedia.org/wiki/%E9%80%97%E5%8F%B7%E5%88%86%E9%9A%94%E5%80%BC)、[JSON](https://zh.wikipedia.org/wiki/JSON)、[SQL](https://zh.wikipedia.org/wiki/SQL)、[HDF5](https://zh.wikipedia.org/wiki/HDF5)和匯入[Microsoft Excel](https://zh.wikipedia.org/wiki/Microsoft_Excel)等[[8]](https://zh.wikipedia.org/zh-tw/Pandas#cite_note-8)。
+
+pandas允許各種資料操縱運算操作比如合併[[9]](https://zh.wikipedia.org/zh-tw/Pandas#cite_note-9)、再成形[[10]](https://zh.wikipedia.org/zh-tw/Pandas#cite_note-10)、選擇[[11]](https://zh.wikipedia.org/zh-tw/Pandas#cite_note-11)，還有[資料淨化](https://zh.wikipedia.org/wiki/%E6%95%B0%E6%8D%AE%E6%B8%85%E6%B4%97)和[資料加工](https://zh.wikipedia.org/w/index.php?title=%E6%95%B0%E6%8D%AE%E5%8A%A0%E5%B7%A5&action=edit&redlink=1)特徵。
