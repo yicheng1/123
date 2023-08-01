@@ -1,0 +1,59 @@
+# Day4
+
+### 截圖: [Win]+[shift]+[s]
+
+### 錄影: [Win]+[g]
+
+## list, Numpy, Pandas, Plot, Visualization: matplotlib.pyplot, qt
+
+1. list
+
+[Plotting data with matplotlib — How to Think Like a Computer Scientist: Learning with Python 3](https://howtothink.readthedocs.io/en/latest/PvL_H.html)
+
+1. numpy
+
+[NumPy  Matplotlib | 菜鸟教程](https://www.runoob.com/numpy/numpy-matplotlib.html)
+
+1. pandas
+
+[](https://github.com/tewei0328/teach-visulization/blob/main/viz1_finlab_yfinance.ipynb)
+
+list, plot, matplotlib.pyplot
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4fabc914-aedf-4c36-a6dc-f67645591673/Untitled.png)
+
+## 於VS Code中使用matplotlib得先用pip install matplotlib安裝
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1644b71e-45be-429b-8fc3-91e6976187ac/Untitled.png)
+
+## ****打造第二大腦,**** CODE(獲取, 組織, 萃取, 表達)
+
+[打造第二大腦的四個步驟！資訊超載時代必學的高效能力｜《打造第二大腦》](https://www.youtube.com/watch?v=pAes0vB0eOY&t=356s)
+
+## 手機也行的python shell(python online)
+
+[Online Python Compiler (Interpreter)](https://www.programiz.com/python-programming/online-compiler/)
+
+## List加元素, dir, help, +, append, extend, del, insert, ..
+
+## If
+
+[if](https://www.notion.so/if-bd496ebc556d4dbe999c424500dd911d?pvs=21)
+
+[ctw_course - 2-1-流程控制-條件分支-if](https://sites.google.com/view/ctwcourse/程式設計/2-1-邏輯/2-1-流程控制-條件分支-if)
+
+## print, format
+
+[如何使用 Python 進行字串格式化](https://blog.techbridge.cc/2019/05/03/how-to-use-python-string-format-method/)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/402c7306-6b8e-469b-a546-ca3da616d271/Untitled.png)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6c0bfd5b-eda0-4e4d-963c-09080328a936/Untitled.png)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/54c2d0b0-6472-4b19-807d-99856e798adc/Untitled.png)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2c2f3774-d86c-4d67-a984-5c9d7fe42068/Untitled.png)
+
+[如何使用 Python 進行字串格式化](https://blog.techbridge.cc/2019/05/03/how-to-use-python-string-format-method/)
+
+[ctw_course - Day8-16](https://sites.google.com/view/ctwcourse/程式設計/day8-16)
